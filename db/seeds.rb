@@ -25,9 +25,18 @@ Approximately 60% of the course will be devoted to relational databases and DB
 design.  The remaining 40% will cover NoSQL options such as MongoDB and Riak.}
 )
 
+
+GradeThreshold.create!(course: db_course,
+  grade: 97,
+  letter: "A+"
+)
+GradeThreshold.create!(course: db_course,
+  grade: 93,
+  letter: "A"
+)
 GradeThreshold.create!(course: db_course,
   grade: 90,
-  letter: "A"
+  letter: "A-"
 )
 GradeThreshold.create!(course: db_course,
   grade: 80,
