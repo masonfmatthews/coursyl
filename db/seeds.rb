@@ -52,7 +52,7 @@ GradeThreshold.create!(course: db_course,
 )
 GradeThreshold.create!(course: db_course,
   grade: 0,
-  letter: "F"
+  letter: "D-"
 )
 
 db_instructor = User.create!(title: 'Mr.',
